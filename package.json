@@ -1,0 +1,31 @@
+{
+    "name": "io-locks",
+    "version": "1.0.1",
+    "description": "Distributed Locks using Redis",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\"",
+        "build": "tsc"
+    },
+    "keywords": [
+        "locks",
+        "redis",
+        "ioredis"
+    ],
+    "author": "Amit Kumawat",
+    "license": "ISC",
+    "dependencies": {
+        "events": "^3.3.0",
+        "ioredis": "^4.24.3"
+    },
+    "devDependencies": {
+        "typescript": "^4.2.3"
+    },
+    "engines": {
+        "node": ">=10.0.0"
+    },
+    "files": [
+        "dist/"
+    ]
+}
